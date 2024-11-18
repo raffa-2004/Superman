@@ -1,0 +1,75 @@
+body{
+    font-family: Tahoma;
+}
+header{
+    background-color: rgb(70, 1, 180);
+    width: 100%;
+    margin: -8px;
+    margin-bottom: 0;
+    padding: 20px;
+    font-weight: bold;
+    padding-left: 60px;
+    color: white;
+    font-size: 25px;
+}
+header span{
+    margin-right: 40px;
+}
+header a{
+    text-decoration: none;
+    background: white;
+    color: rgb(70, 1, 180);
+    border-radius: 20px;
+    padding: 5px 15px;
+    margin-right: 20px;
+    font-weight: 500px;
+}
+.capa{
+    width: 100vw;
+    margin: -8px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.container{
+    width: 1000px;
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+}
+.tv{
+    width: 100%;
+    max-width: calc(100% - 10);
+}
+.container p{
+    text-align: justify;
+    line-height: 30px;
+    font-size:25px;
+    margin-bottom: 50px;
+}
+.sinopse, .disponibilidade{
+    text-align: justify;
+}
+h3{
+    text-align: center;
+}
+.imagens{
+    width: 100%;
+    display:flex;
+    overflow-x: scroll;
+}
+.imagens img{
+    border: 2px solid black;
+    margin-right:15px ;
+    width: 500px;
+}
+footer{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(70, 1, 180);
+    margin: -8px;
+    margin-top: 0;
+    padding: 25px;
+    font-size: 50px;
+    color: white;
+}
